@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -17,13 +22,102 @@
     display: flex;
     gap: 260px;
     padding: 17px;
-    &__there{
+
+    &__there {
         display: flex;
         gap: 5px;
     }
 }
+
 // main
 // section1
-.code{
+.code {
+    width: 375px;
+    height: 52px;
+    background: rgb(66, 66, 66);
     display: flex;
+
+    &__imeges {
+        margin: 16px 7px 18px 21px;
+        width: 20px;
+        height: 20px;
+
+        &__input {
+            width: 244.56px;
+            height: 31px;
+            color: rgb(196, 196, 196);
+            font-family: SF Pro Display;
+            font-size: 15.21px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0.21px;
+            text-align: center;
+            background: rgb(66, 66, 66);
+            border: none;
+        }
+    }
+
+    &__imeges1 {
+        width: 14px;
+        height: 19px;
+        margin: 16px 28px 17px 39px;
+
+    }
+}
+
+.bacround {
+    height: 684px;
+    width: 375px;
+    background: rgb(0, 0, 0);
+    padding-top: 11px;
+
+    &__txt {
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 26.75px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.07px;
+        text-align: center;
+        width: 164px;
+        height: 20px;
+        margin: 21px 201px 21px 10px;
+    }
+
+    &__catation {
+        width: 375px;
+        height: 76px;
+        background: rgb(66, 66, 66);
+        display: flex;
+        gap: 7px;
+        margin-bottom: 3px;
+
+        &__txt-img {}
+
+        &__setup {
+            display: flex;
+            gap: 73px;
+            align-items: center;
+
+            &__bad {
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Display;
+                font-size: 14.72px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0.75px;
+                text-align: center;
+                width: 73.33px;
+                height: 30px;
+                width: 108px;
+
+            }
+
+            &__imeges2 {
+                width: 23.33px;
+                height: 23.33px;
+            }
+        }
+
+    }
 }
