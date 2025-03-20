@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 375px;
+}
+
+.media {
+  width: 375px;
+  height: 44px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  gap: 260px;
+  padding: 17px;
+}
+.media__there {
+  display: flex;
+  gap: 5px;
+}
+
+.code {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
