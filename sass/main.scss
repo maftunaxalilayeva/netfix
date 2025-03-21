@@ -15,6 +15,7 @@ a {
     width: 375px;
 }
 
+
 .media {
     width: 375px;
     height: 44px;
@@ -29,7 +30,7 @@ a {
     }
 }
 
-// main
+// main--------->
 // section1
 .code {
     width: 375px;
@@ -54,6 +55,7 @@ a {
             text-align: center;
             background: rgb(66, 66, 66);
             border: none;
+            margin-top: 13px;
         }
     }
 
@@ -66,7 +68,7 @@ a {
 }
 
 .bacround {
-    height: 684px;
+    height: 610px;
     width: 375px;
     background: rgb(0, 0, 0);
     padding-top: 11px;
@@ -81,7 +83,7 @@ a {
         text-align: center;
         width: 164px;
         height: 20px;
-        margin: 21px 201px 21px 10px;
+        margin: 10px 201px 21px 10px;
     }
 
     &__catation {
@@ -98,6 +100,11 @@ a {
             display: flex;
             gap: 73px;
             align-items: center;
+
+            .setup:hover {
+                border: azure;
+                border-style: dotted;
+            }
 
             &__bad {
                 color: rgb(255, 255, 255);
@@ -119,5 +126,61 @@ a {
             }
         }
 
+    }
+}
+
+// footer---------->
+.bacround1 {
+
+    width: 375px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    padding-top: 23px;
+
+    &__coder {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 29px 0px 29px;
+        width: 375px;
+        height: 48px;
+        background: rgb(18, 18, 18);
+    }
+}
+
+.hr {
+    width: 121.38px;
+    height: 4.53px;
+    border-radius: 90.58px;
+
+    background: rgb(255, 255, 255);
+    margin: 14px auto;
+}
+
+// soon.html---------->
+.edit {
+    width: 375px;
+    height: 1456px;
+    background: rgb(0, 0, 0);
+
+    &__count {
+        display: flex;
+        width: 124.6px;
+        height: 19px;
+        gap: 9px;
+        margin: 0px 135px 18px 15px;
+        align-items: center;
+
+            &__h2text {
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Display;
+                font-size: 16.91px;
+                font-weight: 700;
+                line-height: 12.64px;
+                letter-spacing: -0.05px;
+                text-align: center;
+                width: 98.6px;
+                height: 12.64px;
+            
+        }
     }
 }
