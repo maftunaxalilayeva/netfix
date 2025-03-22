@@ -156,4 +156,56 @@ a {
   text-align: center;
   width: 98.6px;
   height: 12.64px;
+}
+.edit__d-f {
+  display: flex;
+  width: 375px;
+  height: 65px;
+  background: rgb(66, 66, 66);
+  padding: 5px 152px 9px 12px;
+  gap: 30px;
+}
+.edit__d-f__left__left-img {
+  width: 113px;
+  height: 55px;
+  border-radius: 2px;
+}
+.edit__d-f__right {
+  width: 67.36px;
+  height: 46.4px;
+}
+.edit__d-f__right__right-h2 {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 13.72px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  text-align: left;
+  width: 167.36px;
+  height: 10.69px;
+}
+.edit__d-f__right__right-h3 {
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 13.72px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  text-align: left;
+  width: 87px;
+  height: 11px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.edit__d-f__right__right-p {
+  color: rgba(255, 255, 255, 0.48);
+  font-family: SF Pro Display;
+  font-size: 10.51px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  text-align: left;
+  width: 26.73px;
+  height: 10.69px;
 }/*# sourceMappingURL=main.css.map */

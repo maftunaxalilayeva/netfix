@@ -170,17 +170,77 @@ a {
         margin: 0px 135px 18px 15px;
         align-items: center;
 
-            &__h2text {
+        &__h2text {
+            color: rgb(255, 255, 255);
+            font-family: SF Pro Display;
+            font-size: 16.91px;
+            font-weight: 700;
+            line-height: 12.64px;
+            letter-spacing: -0.05px;
+            text-align: center;
+            width: 98.6px;
+            height: 12.64px;
+
+        }
+    }
+
+    &__d-f {
+        display: flex;
+        width: 375px;
+        height: 65px;
+        background: rgb(66, 66, 66);
+        padding: 5px 152px 9px 12px;
+        gap: 30px;
+
+        &__left {
+            &__left-img {
+                width: 113px;
+                height: 55px;
+                border-radius: 2px;
+            }
+        }
+
+        &__right {
+            width: 67.36px;
+            height: 46.4px;
+
+            &__right-h2 {
                 color: rgb(255, 255, 255);
                 font-family: SF Pro Display;
-                font-size: 16.91px;
-                font-weight: 700;
-                line-height: 12.64px;
-                letter-spacing: -0.05px;
-                text-align: center;
-                width: 98.6px;
-                height: 12.64px;
-            
+                font-size: 13.72px;
+                font-weight: 500;
+                line-height: 10.26px;
+                letter-spacing: -0.04px;
+                text-align: left;
+                width: 167.36px;
+                height: 10.69px;
+            }
+
+            &__right-h3 {
+                color: rgba(255, 255, 255, 0.83);
+                font-family: SF Pro Display;
+                font-size: 13.72px;
+                font-weight: 500;
+                line-height: 10.26px;
+                letter-spacing: -0.04px;
+                text-align: left;
+                width: 87px;
+                height: 11px;
+                margin-top: 7px;
+                margin-bottom: 7px;
+            }
+
+            &__right-p {
+                color: rgba(255, 255, 255, 0.48);
+                font-family: SF Pro Display;
+                font-size: 10.51px;
+                font-weight: 500;
+                line-height: 10.26px;
+                letter-spacing: -0.04px;
+                text-align: left;
+                width: 26.73px;
+                height: 10.69px;
+            }
         }
     }
 }
